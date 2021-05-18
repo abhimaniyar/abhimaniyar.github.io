@@ -25,7 +25,7 @@
     <section id="bio">
         <h2>About me:</h2>
             I'm a Postdoctoral Research Associate at the Center for Cosmology and Particle Physics
-            <a href="https://cosmo.nyu.edu/" target="_blank"><font color='Yellow'>(CCPP)</font></a>
+            <a href="https://cosmo.nyu.edu/" target="_blank"><font color='Orange'>(CCPP)</font></a>
             at the New York University (NYU), working on the Large Scale Structure Cosmology of the universe.
     </section>
 
