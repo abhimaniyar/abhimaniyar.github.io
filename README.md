@@ -14,13 +14,25 @@
 <body>
 <div class="content">
     <header>
-        <a href="README.md"><img src="/files/Abhishek_Maniyar.jpg" width="250" height="300" alt="me"></a>
+        <a href="README.md"><img src="/files/Abhishek_Maniyar.jpg" width="250" height="250" alt="me"></a>
         <h1><a href="README.md">Abhi Maniyar</a></h1>
     	<ul>
     	    <li></li>
     	</ul>
     </header>
 
+
+    <section id="bio">
+        <h2>About me:</h2>
+            I'm a Postdoctoral Research Associate at the Center for Cosmology and Particle Physics
+            <a href="https://cosmo.nyu.edu/" target="_blank"><font color='DarkBlue'>(CCPP)</font></a>
+            at the New York University (NYU), working on the Large Scale Structure Cosmology of the universe.
+    </section>
+
+        <footer>
+            Please email me at
+            <a href="mailto:abhimaniyar@gmail.com">abhimaniyar@gmail.com</a>.
+        </footer>
 
 </div>
 </body>
