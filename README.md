@@ -30,8 +30,7 @@
     </section>
 
         <footer>
-            Please email me at
-            <a href="mailto:abhimaniyar@gmail.com">abhimaniyar@gmail.com</a>.
+            You can reach me by email at abhimaniyar@gmail.com.
         </footer>
 
 </div>
