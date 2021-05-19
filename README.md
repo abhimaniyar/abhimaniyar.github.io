@@ -14,8 +14,8 @@
 <body>
 <div class="content">
     <header>
-        <a href="README.md"><img src="/files/Abhishek_Maniyar.jpg" width="200" height="200" alt="me"></a>
-        <h1><a href="README.md">Abhi Maniyar</a></h1>
+        <a <img src="/files/Abhishek_Maniyar.jpg" width="200" height="200" alt="me"></a>
+        <h1><a>Abhi Maniyar</a></h1>
     	<ul>
     	    <li></li>
     	</ul>
