@@ -1,1 +1,1 @@
-Thanks to Jay Wadekar for sharing his website template!
+Thanks to Jay Wadekar for sharing the template!
