@@ -46,8 +46,15 @@ h2 {
     margin: 0 10px 0 0;
 }
 
+h3 {
+    font-size: 17px;
+    font-weight: bold;
+    margin: 30px 0 10px 0;
+    color: rgba(0, 0, 0, 0.85);
+}
+
 .content {
-    width: 600px;
+    width: 700px;
     margin: 0 auto;
 }
 
@@ -57,10 +64,11 @@ header {
 }
 
 header img {
-    float: left; 
+    float: left;
     width: 150px;
     height: 150px;
     margin: 0 0 5px;
+    border-radius: 6px;
 }
 
 header h1 {
@@ -85,9 +93,9 @@ section:after {
     display: block;
     width: 0px;
     border-top: 1px solid rgba(0, 0, 0, 0.2);
-    margin-top: 60px; 
-    margin-bottom: 50px; /*margin: 60px auto;*/
-    margin-left: auto; 
+    margin-top: 60px;
+    margin-bottom: 50px;
+    margin-left: auto;
     margin-right: auto;
     padding: 0;
 }
@@ -113,4 +121,87 @@ footer a:hover {
 footer a {
     font-weight: bold;
     text-decoration: underline;
+}
+
+/* Research page styles */
+.research-categories {
+    margin: 25px 0;
+}
+
+.research-categories a {
+    display: inline-block;
+    padding: 8px 18px;
+    margin: 5px 8px 5px 0;
+    background: rgba(70, 130, 180, 0.1);
+    background-image: none;
+    border: 1px solid rgba(70, 130, 180, 0.3);
+    border-radius: 4px;
+    color: rgba(70, 130, 180, 0.9);
+    font-weight: 500;
+    transition: 0.2s;
+}
+
+.research-categories a:hover {
+    background: rgba(70, 130, 180, 0.2);
+    border-color: rgba(70, 130, 180, 0.5);
+}
+
+.research-paper {
+    margin: 30px 0;
+    padding: 20px 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.research-paper:last-child {
+    border-bottom: none;
+}
+
+.research-paper h3 {
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+.research-paper .paper-authors {
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.6);
+    margin-bottom: 10px;
+}
+
+.research-paper .paper-links {
+    font-size: 14px;
+    margin-bottom: 12px;
+}
+
+.research-paper .paper-links a {
+    color: DarkBlue;
+    margin-right: 10px;
+}
+
+.research-figure {
+    margin: 15px 0;
+    text-align: center;
+}
+
+.research-figure img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+}
+
+.research-figure .caption {
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.6);
+    margin-top: 8px;
+    line-height: 1.4;
+    font-style: italic;
+}
+
+.back-link {
+    margin: 20px 0;
+    font-size: 14px;
+}
+
+.back-link a {
+    color: rgba(70, 130, 180, 0.9);
 }
