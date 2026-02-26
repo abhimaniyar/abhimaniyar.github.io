@@ -1,0 +1,130 @@
+<! DOCTYPE html >
+<html>
+<head>
+<meta charset="utf-8">
+<title>Abhishek Maniyar - Cosmology</title>
+<meta name="description" content="Abhishek Maniyar - Cosmology research" />
+
+<link rel="icon" type="image/jpg" href="/files/Abhishek_Maniyar_picture.jpg" sizes="300x300">
+<link rel="stylesheet" href="css/normalize.css" type="text/css" />
+<link rel="stylesheet" href="css/base.css" type="text/css" />
+<link rel="stylesheet" href="css/code.css" type="text/css" />
+</head>
+
+<body>
+<div class="content">
+    <header>
+        <a href="index.html"><img src="/files/Abhishek_Maniyar_picture.jpg" width="200" height="200" alt="me"></a>
+        <h1><a href="index.html">Abhishek Maniyar</a></h1>
+    	<ul>
+    	    <li></li>
+          <li><a href="research.html">Research</a></li>
+          <li><a href="publications.html">Publications</a></li>
+    	</ul>
+    </header>
+
+
+    <section id="cosmology">
+      <p class="back-link"><a href="research.html">&larr; Back to Research</a></p>
+      <h2>Cosmology</h2>
+      <p>
+        A major part of my research focuses on using the cosmic microwave background (CMB) and
+        its secondary anisotropies to probe the large-scale structure of the universe and constrain
+        cosmological parameters. This includes constructing maps of the thermal Sunyaev-Zel'dovich (tSZ)
+        effect, developing optimal estimators for CMB weak lensing, and exploring cross-correlations between
+        the CMB and the cosmic infrared background (CIB) for cosmological inference.
+      </p>
+
+      <div class="research-paper">
+        <h3>Compton-y maps from SPT-3G and Planck</h3>
+        <p class="paper-authors">
+            A. S. Maniyar, F. Bianchini, W. L. K. Wu, S. Raghunathan et al. (SPT-3G Collaboration), 2025
+        </p>
+        <p class="paper-links">
+            [<a href="https://arxiv.org/abs/2602.11279" target="_blank"><font color='DarkBlue'>arXiv</font></a>]
+            [<a href="https://ui.adsabs.harvard.edu/abs/2025arXiv250211279M/abstract" target="_blank"><font color='DarkBlue'>ADS</font></a>]
+        </p>
+        <p>
+            We presented thermal Sunyaev-Zel'dovich (tSZ) Compton-y parameter maps constructed by
+            combining two years of South Pole Telescope (SPT-3G) observations with data from the Planck
+            satellite over the ~1500 deg<sup>2</sup> SPT-3G survey field. Using a linear combination
+            pipeline, we generated multiple map reconstructions that balance sensitivity against removal
+            of astrophysical contaminants such as the CIB and CMB. Galaxy clusters are prominently visible
+            in these maps as hotspots of the tSZ signal. We validated the maps through power spectrum analysis
+            and cluster stacking, demonstrating the robustness of the recovered tSZ signal. These high-resolution
+            Compton-y maps enable a range of cosmological analyses including power spectrum measurements,
+            cross-correlations with large-scale structure tracers, cluster pressure profile modeling, and
+            studies of baryon thermodynamics.
+        </p>
+        <div class="research-figure">
+            <img src="/files/research/spt3g_ymap.png" alt="SPT-3G and Planck combined Compton-y map">
+            <p class="caption">
+                Figure 2: The Planck and SPT-3G combined minimum-variance Compton-y map over the SPT-3G survey field.
+                Numerous galaxy clusters are prominently visible as reddish features resulting from the tSZ effect.
+            </p>
+        </div>
+      </div>
+
+      <div class="research-paper">
+        <h3>Quadratic estimators for CMB weak lensing</h3>
+        <p class="paper-authors">
+            A. S. Maniyar, Y. Ali-Ha&iuml;moud, J. Carron, A. Lewis, M. S. Madhavacheril, 2021
+        </p>
+        <p class="paper-links">
+            [<a href="https://arxiv.org/abs/2101.12193" target="_blank"><font color='DarkBlue'>arXiv</font></a>]
+            [<a href="https://ui.adsabs.harvard.edu/abs/2021PhRvD.103h3524M/abstract" target="_blank"><font color='DarkBlue'>ADS</font></a>]
+        </p>
+        <p>
+            Quadratic estimators are widely used to reconstruct the CMB lensing potential from temperature
+            and polarization maps. We showed that the commonly used Hu-Okamoto (HO02) estimator, which first
+            constructs optimal single-pair quadratic estimators and then combines them, does not yield the
+            absolute minimum-variance result. Instead, we derived the global-minimum-variance (GMV) quadratic
+            estimator, which minimizes the variance of all temperature and polarization combinations in one
+            single step. We demonstrated that the GMV estimator achieves ~9% lower reconstruction noise
+            than HO02 for experiments like the Simons Observatory, and that
+            estimators used in previous Planck and SPT analyses are even less optimal (up to ~11% higher noise
+            than GMV). This work provides motivation for adopting the GMV estimator in future weak lensing
+            analyses aimed at constraining neutrino masses, primordial non-Gaussianity, dark energy, and
+            modified gravity.
+        </p>
+        <div class="research-figure">
+            <img src="/files/research/cmb_lensing_estimators.png" alt="Comparison of CMB lensing quadratic estimators">
+            <p class="caption">
+                Figure 2: Ratio of the minimum-variance reconstruction noise of the GMV and standard quadratic
+                estimators (SQE), and HO02 and SQE estimators for different experimental setups (Planck, Simons
+                Observatory, CMB-S4). The GMV estimator consistently outperforms HO02 across all configurations.
+            </p>
+        </div>
+      </div>
+
+      <div class="research-paper">
+        <h3>Constraining cosmology with the CMB and CIB correlation</h3>
+        <p class="paper-authors">
+            A. S. Maniyar, G. Lagache, M. B&eacute;thermin, S. Ili&cacute;, 2019
+        </p>
+        <p class="paper-links">
+            [<a href="https://arxiv.org/abs/1809.04551" target="_blank"><font color='DarkBlue'>arXiv</font></a>]
+            [<a href="https://ui.adsabs.harvard.edu/abs/2019A%26A...621A..32M/abstract" target="_blank"><font color='DarkBlue'>ADS</font></a>]
+        </p>
+        <p>
+            We explored the use of the cosmic infrared background (CIB) as a tracer of large-scale structure
+            to cross-correlate with the CMB and exploit the integrated Sachs-Wolfe (ISW) effect for
+            constraining dark energy. We derived theoretical predictions for the CIB-CMB cross-correlation
+            at multiple frequencies and performed a detailed signal-to-noise analysis. While the theoretical
+            forecasts showed promising potential under ideal conditions, our realistic analysis revealed that
+            galactic dust contamination significantly degrades the detection capability. We showed that residual
+            dust contamination in observational maps must be cleaned to extraordinarily stringent levels to
+            maintain measurement quality, highlighting an important systematic challenge for future ISW studies
+            using the CIB.
+        </p>
+      </div>
+
+    </section>
+
+        <footer>
+            You can reach me by email at abhimaniyar@gmail.com.
+        </footer>
+
+</div>
+</body>
+</html>
