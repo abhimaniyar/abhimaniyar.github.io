@@ -18,6 +18,10 @@ a {
     color: inherit;
 }
 
+section a {
+    color: SteelBlue;
+}
+
 small {
     font-size: 13px;
     line-height: 1.2;
